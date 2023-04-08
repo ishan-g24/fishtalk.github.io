@@ -1,0 +1,102 @@
+
+
+/* Set some global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222629;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  
+}
+/* Style the banner */
+.banner {
+  background-color: /*#212121*/ #1a1a1d;
+  color: #950740;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(gradient-background-razer-flow-2048x1536-1389.png)
+}
+.banner h1 {
+  font-size: 48px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Orbitron', sans-serif;;
+}
+
+/* Style the messages container */
+.messages-container {
+  height: calc(100vh - 160px);
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+/* Style the messages list */
+.messages {
+  list-style: none;
+}
+
+.messages li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #222629;
+}
+
+.messages li:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+/* Style the message form */
+.message-form {
+  background-color: #212121;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.message-form input {
+  background-color: #444;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  flex: 1;
+  font-family: /*'Orbitron',*/ sans-serif;
+}
+
+.message-form button {
+  background-color: /*#BB86FC*/#950740;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.message-form button:hover {
+  background-color: #355c7d;
+}
+
+
+#photo{
+  height: 37px;
+  width:37px;
+  border-radius: 50%;
+}
